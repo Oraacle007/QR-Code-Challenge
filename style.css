@@ -18,19 +18,22 @@ body{
 }
 
 p{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 500px;
     color: hsl(220, 15%, 55%);
+    
 }
 
 main{
     text-align: center;
-    border: 10px solid white;
+    border: 15px solid white;
     border-radius: 1rem;
     width: 15.6rem;
+    height: 25rem;
     background-color: hsl(0, 0%, 100%);
-    padding: 1rem, 1rem, 1.5rem, 1rem;
+    padding: 1rem, 1rem, 1rem, 1rem;
     transition: box-shadow 5s;
+
 
 }
 
