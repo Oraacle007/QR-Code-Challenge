@@ -19,19 +19,20 @@ body{
 
 p{
     font-size: 13px;
-    font-weight: 500px;
+    font-weight: 500;
     color: hsl(220, 15%, 55%);
-    
+    position: relative; top: 10px;   
+    justify-content: center; 
 }
 
 main{
     text-align: center;
-    border: 15px solid white;
+    border: 10px solid white;
     border-radius: 1rem;
     width: 15.6rem;
     height: 25rem;
     background-color: hsl(0, 0%, 100%);
-    padding: 1rem, 1rem, 1rem, 1rem;
+    padding: 0.3rem;
     transition: box-shadow 5s;
 
 
@@ -42,6 +43,10 @@ main img{
     border-radius: .75rem;
 
 
+}
+h1{
+    font-size: 1.0rem;
+    text-align: center;
 }
 
 footer{
